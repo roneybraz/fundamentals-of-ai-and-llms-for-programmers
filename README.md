@@ -5,20 +5,20 @@ Repositório de estudos da disciplina **Fundamentos de IA e LLMs para Programado
 ## Estrutura
 
 ```
-exemplo-00-template/   # Exemplo de rede neural com TensorFlow.js
-exemplo-01-template/   # Scaffold base para novos exemplos
+exemplo-00-template/   # Scaffold base para novos exemplos
+exemplo-01-template/   # Exemplo de rede neural com TensorFlow.js
 ```
 
 Cada exemplo é independente, com seu próprio `package.json`.
 
-## Exemplo 00 — Template
+## Exemplo 01 — Template
 
 Rede neural simples (usando [@tensorflow/tfjs](https://www.tensorflow.org/js)) que classifica uma pessoa em uma categoria (`premium`, `medium` ou `basic`) a partir de idade, cor e localização.
 
 ### Rodando o exemplo
 
 ```bash
-cd exemplo-00-template
+cd exemplo-01-template
 npm install
 npm start
 ```
