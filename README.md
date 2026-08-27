@@ -1,15 +1,15 @@
 # Fundamentos de IA e LLMs para Programadores
 
-Repositório de estudos da disciplina **Fundamentos de IA e LLMs para Programadores** (pós-graduação), com exemplos práticos organizados por módulo.
+Repositório de estudos da disciplina **Fundamentos de IA e LLMs para Programadores** (pós-graduação), com exemplos práticos.
 
 ## Estrutura
 
 ```
-modulo01-fundamentos-de-ia-e-llms-para-programadores/
-└── exemplo-00-template/   # Exemplo de rede neural com TensorFlow.js
+exemplo-00-template/   # Exemplo de rede neural com TensorFlow.js
+exemplo-01-template/   # Scaffold base para novos exemplos
 ```
 
-Cada módulo do curso terá sua própria pasta, contendo os exemplos e exercícios trabalhados em aula.
+Cada exemplo é independente, com seu próprio `package.json`.
 
 ## Exemplo 00 — Template
 
@@ -18,7 +18,7 @@ Rede neural simples (usando [@tensorflow/tfjs](https://www.tensorflow.org/js)) q
 ### Rodando o exemplo
 
 ```bash
-cd modulo01-fundamentos-de-ia-e-llms-para-programadores/exemplo-00-template
+cd exemplo-00-template
 npm install
 npm start
 ```
